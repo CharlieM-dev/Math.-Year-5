@@ -7,7 +7,7 @@ square = [
 ]
 magic_sum = square[0][0] + square[1][0] + square[2][0]
 
-square[1][1] = magic_sum - square[1][0] - square[0][2]
+square[1][1] = magic_sum - square[1][0] - square[1][2]
 square[0][2] = magic_sum - square[2][0] - square[1][1]
 square[0][1] = magic_sum - square[0][0] - square[0][2]
 print(f'The solution for top middle cell is {square[0][1]}')
