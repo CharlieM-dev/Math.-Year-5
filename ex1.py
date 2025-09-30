@@ -12,5 +12,5 @@ def natural_numbers(x):
     return list_of_numbers
 
 
-numbers = natural_numbers
+numbers = natural_numbers()
 print(numbers)
