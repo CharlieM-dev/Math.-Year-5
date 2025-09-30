@@ -10,5 +10,5 @@ def numbers_in_reverse():
         return None
 
 
-result = numbers_in_reverese()
+result = numbers_in_reverse()
 print(result)
